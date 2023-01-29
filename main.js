@@ -1,3 +1,12 @@
+noseX = "";
+noseY = "";
+GameStatus = "";
+
+function startGame() {
+	GameStatus = "start";
+	document.getElementById("status").innerHTML = "game is loaded!";
+}
+
 function preload() {
 	world_start = loadSound("world_start.wav");
 	setSprites();
